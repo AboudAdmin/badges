@@ -1,0 +1,63 @@
+/* Page background and text settings */
+body {
+    font-family: 'Verdana', sans-serif;
+    background: #e6e9f0; /* light grey background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Card container */
+.card {
+    background: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Card image */
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Title */
+.card h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Description text */
+.card p {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Button */
+.card button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #3498db;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.card button:hover {
+    background: #2980b9;
+}
