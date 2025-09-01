@@ -1,0 +1,37 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Heading style */
+h1 {
+    color: #2e8b57; /* Sea green */
+    margin-top: 50px;
+}
+
+/* Paragraph style */
+p {
+    font-size: 18px;
+    color: #333333;
+}
+
+/* Button style */
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #ff4500; /* Orange-red */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #ff6347; /* Tomato */
+}
